@@ -1,0 +1,89 @@
+@font-face{
+	font-family: outfit;
+	src: url(Fonts/Outfit-VariableFont_wght.ttf);
+}
+.attribution{
+	display: none;
+}
+body{
+	background-color: hsl(217, 54%, 11%);
+}
+h1{
+	font-family: "outfit";
+	font-size: 23px;
+	font-weight: 600;
+}
+h2{
+	font-family: "outfit";
+	font-size: 18px;
+	font-weight: 400;
+}
+p{
+	font-family: "outfit";
+	font-size: 18px;
+	color: hsl(215, 51%, 70%);
+	font-weight: 400;
+}
+.carte{
+	position: absolute;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 10px;
+	padding: 20px;
+	width: 300px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.haut-carte{
+	text-align: left;
+}
+.haut-carte img{
+	position: relative;
+	width: 100%;
+	border-radius: 15px;
+}
+.haut-carte h1{
+	color: hsl(0, 0%, 100%);
+}
+.bas-article{
+	display: inline-flex;
+	text-align: center;
+}
+.bas-article .prix h2{
+	color: hsl(178, 100%, 50%);
+}
+.prix img{
+	transform: translateY(12.5%);
+}
+.bas-article .temps h2{
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+.bas-article .temps img{
+	width: 18px;	
+	height: 18px;
+	transform: translateY(12.5%);
+}
+.bas-article .prix img {
+	width: 11px;
+	height: 17px;
+}
+.temps{
+	position: absolute;
+	display: flex;
+	right: 15px;
+}
+.publication{
+	border-top: solid;
+	border-color: hsl(215, 51%, 70%);
+	text-align: center;
+	display: flex;
+}
+.publication img{
+	transform: translateY(12.5%);
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: hsl(0, 0%, 100%);
+}
