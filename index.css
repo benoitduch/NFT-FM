@@ -45,6 +45,7 @@ p{
 .haut-carte img{
 	position: relative;
 	width: 100%;
+	heigth:100%
 	border-radius: 15px;
 }
 .haut-carte div{
