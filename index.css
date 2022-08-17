@@ -13,7 +13,10 @@ h1{
 	font-size: 23px;
 	font-weight: 600;
 }
-h1:hover{
+a{
+	text-decoration: none;
+}
+a h1:hover{
 	color : hsl(178, 100%, 50%);
 }
 h2{
@@ -43,6 +46,24 @@ p{
 	position: relative;
 	width: 100%;
 	border-radius: 15px;
+}
+.haut-carte div{
+	position: relative;
+	display: flex;
+}
+.haut-carte .hover{
+	display: none;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 1;
+    transform: translate(50%,-50%);
+    border-radius: 15px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    cursor: pointer;
+}
+.haut-carte div:hover .hover{
+	display: block;
 }
 .haut-carte h1{
 	color: hsl(0, 0%, 100%);
@@ -90,4 +111,13 @@ p{
 	border-width: 1px;
 	border-style: solid;
 	border-color: hsl(0, 0%, 100%);
+}
+.publication h2{
+	color: hsl(215, 51%, 70%);
+}
+.publication a{
+	color: hsl(0, 0%, 100%);
+}
+.publication a:hover{
+	color: hsl(178, 100%, 50%);
 }
